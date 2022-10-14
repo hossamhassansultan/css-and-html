@@ -3,19 +3,23 @@ body {
 }
 
 button {
+    margin-left: 50px;
     background-color: green;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 40px;
     padding-left: 40px;
-    color: white;
+    color: black;
     border-radius: 20px;
     border-width: 0px;
-    box-shadow: rgba(0, 0, 0, 0.407) 33px ,
+    box-shadow:0px 8px 15px 30px rgba(0,0, 0, 0.09);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
-
-
-
-
-
+}
+button:hover{
+    background-color: red;
+    box-shadow:0px 8px 15px 30px rgba(46,229, 157, 0.4);
+    color: white;
+    transform: translateY(-7px);
 }
